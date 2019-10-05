@@ -14,3 +14,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_lettuce.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_lettuce-user \
+    lineage_lettuce-userdebug \
+    lineage_lettuce-eng
