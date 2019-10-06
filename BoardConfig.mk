@@ -23,6 +23,9 @@ DEVICE_PATH := device/yu/lettuce
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := lettuce,Lettuce,LETTUCE,YU5010,YU5010A,yu5010,yu5010a,yuphoria,Yuphoria,YUPHORIA
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
