@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lettuce.mk
+    $(LOCAL_DIR)/arrow_lettuce.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lettuce-user \
-    lineage_lettuce-userdebug \
-    lineage_lettuce-eng
+    arrow_lettuce-user \
+    arrow_lettuce-userdebug \
+    arrow_lettuce-eng
