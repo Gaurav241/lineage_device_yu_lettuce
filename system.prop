@@ -14,6 +14,27 @@ persist.camera.hal.debug.mask=0
 # Display
 ro.sf.lcd_density=320
 
+# IMS
+net.lte.volte_call_capable=true
+persist.data.iwlan.enable=true
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.ims.volte=true
+persist.ims.enableADBLogs=1
+persist.ims.enableDebugLogs=1
+persist.radio.calls.on.ims=true
+persist.radio.csvt.enabled=false
+persist.radio.jbims=1
+persist.radio.ROTATION_ENABLE=1
+persist.radio.schd.cache=3500
+persist.radio.VT_ENABLE=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.VT_USE_MDM_TIME=0
+persist.volte_enabled_by_hw=1
+telephony.lteOnCdmaDevice=1
+
 # Radio
 persist.data.target=dpm1
 persist.radio.multisim.config=dsds
@@ -23,6 +44,15 @@ ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
 ro.config.always_show_roaming=true
 ro.telephony.default_network=9,9
+persist.data.netmgrd.qos.enable=true
+persist.radio.aosp_usr_pref_sel=true
+persist.radio.custom_ecc=1
+persist.radio.flexmap_type=dds
+persist.radio.mt_sms_ack=20
+persist.radio.rat_on=combine
+persist.radio.sib16_support=1
+rild.libargs=-d /dev/smd0
+DEVICE_PROVISIONED=1
 
 # Sensors
 ro.fusion.magfield.max=250
